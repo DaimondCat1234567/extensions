@@ -1,6 +1,6 @@
 import React, {useState, useMemo} from "react";
 import tsExtensions from "../lib/ext";
-import "../styles/extensions.css";
+import "../css/style.css";
 
 const creditLinkShortcuts = {
     "_scratch_": (credit) => `https://scratch.mit.edu/users/${credit.name}`,
